@@ -19,7 +19,7 @@ const Bannar = () => {
   },[])
 
 if(Loading){
-  return <h1>Loading</h1>
+  return;
 }
   return (
     <section>
