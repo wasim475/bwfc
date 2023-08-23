@@ -26,14 +26,14 @@ const Navbar = () => {
           <div className='w-[10%]'><img src={navData.logo}/></div>
           <div className='w-[50%] flex justify-center '>
             <ul className='flex gap-[35px] font-man font-normal text-sm'>
-              {navData.navItems.map((nitem)=>(
-                <li className='hover:text-primary transition ease-in-out delay-150 group'>
+              {navData.navItems.map((nitem, index)=>(
+                <li key={index} className='hover:text-primary transition ease-in-out delay-150 group'>
                 {nitem.item} {nitem.dropDown && < BsCaretDownFill className='group group-hover:invisible group-hover:absolute'/> } {nitem.dropDown && < BsCaretUpFill className='invisible group-hover:visible'/> }
                 {
                   nitem.dropDown && <ul>
                   <ul className='invisible absolute group-hover:visible text-black opacity-0 group-hover:opacity-100 z-10 rounded-lg drop-shadow-lg bg-white p-2'>
-                  { nitem.dropDownItem.map((dItem)=>(
-                    <li className=''>{dItem.dropItem}</li>
+                  { nitem.dropDownItem.map((dItem, index)=>(
+                    <li key={index} className=''>{dItem.dropItem}</li>
                   ))}
                 </ul>
                   </ul>

@@ -25,7 +25,7 @@ const Sponsor = () => {
             <div className='flex justify-between mt-[36px] mx-14'>
                 {
                     sponsorData.logos.map((item, index)=>(
-                    <img src={item.src}/>
+                    <img key={index} src={item.src}/>
                 ))
                 }
             </div>

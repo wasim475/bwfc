@@ -9,11 +9,15 @@ module.exports = {
         'container': '1150px'
       },
       colors: {
-        'primary': '#3734A9'
+        'primary': '#3734A9',
+        'textColor': '#757095'
       },
       fontFamily:{
         'man': ['Manrope', 'sans-serif']
-      }
+      },
+      lineHeight: {
+        'myChoice': '56px'
+      },
     },
   },
   plugins: ['prettier-plugin-tailwindcss'],
