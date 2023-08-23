@@ -1,6 +1,7 @@
 import Bannar from "./components/Bannar";
 import Feature from "./components/Feature";
 import Navbar from "./components/Navbar";
+import Paymentt from "./components/Paymentt";
 import Sponsor from "./components/Sponsor";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Bannar/>
       <Sponsor/>
       <Feature/>
+      <Paymentt/>
     </>
   );
 }
