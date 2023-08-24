@@ -1,3 +1,4 @@
+import Account from "./components/Account";
 import Bannar from "./components/Bannar";
 import Feature from "./components/Feature";
 import Navbar from "./components/Navbar";
@@ -12,6 +13,7 @@ function App() {
       <Sponsor/>
       <Feature/>
       <Paymentt/>
+      <Account/>
     </>
   );
 }

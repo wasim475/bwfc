@@ -24,7 +24,7 @@ if(Loading){
   return (
     <section>
       <Container>
-        <div className='flex' style={{ backgroundImage: `url(${bannarData.bannerbgshape})` }}>
+        <div className='flex p-2' style={{ backgroundImage: `url(${bannarData.bannerbgshape})` }}>
         
           <div className='w-[52%]'>
             <h1 className='font-man font-extrabold text-6xl leading-[80px] tracking-[-3%]'> 
@@ -34,7 +34,7 @@ if(Loading){
             <div className='flex mt-8 gap-10'>
              <Button>Get Start</Button>
              <a 
-             className='inline-block'
+             className='inline-block mt-[27px]'
              href={bannarData.video.link}
              target='blank'
              
