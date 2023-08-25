@@ -1,8 +1,10 @@
 import Account from "./components/Account";
 import Bannar from "./components/Bannar";
+import Client from "./components/Client";
 import Feature from "./components/Feature";
 import Navbar from "./components/Navbar";
 import Paymentt from "./components/Paymentt";
+import Residence from "./components/Residence";
 import Sponsor from "./components/Sponsor";
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Feature/>
       <Paymentt/>
       <Account/>
+      {/* <Client/> */}
+      <Residence/>
     </>
   );
 }
