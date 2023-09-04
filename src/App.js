@@ -4,6 +4,7 @@ import Choose from "./components/Choose";
 import Client from "./components/Client";
 import Feature from "./components/Feature";
 import Finance from "./components/Finance";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Paymentt from "./components/Paymentt";
 import Residence from "./components/Residence";
@@ -25,6 +26,7 @@ function App() {
       <Finance/>
       <Choose/>
       <Track/>
+      <Footer/>
       
      
     </>

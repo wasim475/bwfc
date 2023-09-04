@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import Container from '../layouts/Container'
-import List from '../layouts/List'
+
 import Title from '../layouts/Title'
 import Heading from '../layouts/Heading'
 import Paragraph from '../layouts/Paragraph'
