@@ -10,7 +10,8 @@ module.exports = {
       },
       colors: {
         'primary': '#3734A9',
-        'textColor': '#757095'
+        'textColor': '#757095',
+        'bg-c': '#F3F7FA'
       },
       fontFamily:{
         'man': ['Manrope', 'sans-serif']

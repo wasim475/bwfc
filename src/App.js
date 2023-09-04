@@ -1,5 +1,6 @@
 import Account from "./components/Account";
 import Bannar from "./components/Bannar";
+import Choose from "./components/Choose";
 import Client from "./components/Client";
 import Feature from "./components/Feature";
 import Finance from "./components/Finance";
@@ -7,6 +8,7 @@ import Navbar from "./components/Navbar";
 import Paymentt from "./components/Paymentt";
 import Residence from "./components/Residence";
 import Sponsor from "./components/Sponsor";
+
 
 function App() {
   return (
@@ -17,9 +19,12 @@ function App() {
       <Feature/>
       <Paymentt/>
       <Account/>
-      {/* <Client/> */}
+      <Client/>
       <Residence/>
       <Finance/>
+      <Choose/>
+      
+     
     </>
   );
 }
