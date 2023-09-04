@@ -11,7 +11,9 @@ module.exports = {
       colors: {
         'primary': '#3734A9',
         'textColor': '#757095',
-        'bg-c': '#F3F7FA'
+        'bg-c': '#F3F7FA',
+        'bg-i' : '#BBB5E0',
+        'btnC': '#FF7F5C'
       },
       fontFamily:{
         'man': ['Manrope', 'sans-serif']

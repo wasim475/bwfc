@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import Paymentt from "./components/Paymentt";
 import Residence from "./components/Residence";
 import Sponsor from "./components/Sponsor";
+import Track from "./components/Track";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Residence/>
       <Finance/>
       <Choose/>
+      <Track/>
       
      
     </>
